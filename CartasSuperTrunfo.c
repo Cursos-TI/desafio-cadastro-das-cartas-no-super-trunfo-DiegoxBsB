@@ -4,12 +4,12 @@
 int main() {
 
    
-char estado1[20], estado2[20], codigo1[10], codigo2[10], cidade1 [20], cidade2[20];
+char estado1[20], estado2[20], codigo1[3], codigo2[3], cidade1 [20], cidade2[20];
 int populacao1, populacao2, pturis1, pturis2;
-float area1, area2;
-float pib1, pib2;
+float area1, area2, pib1, pib2;
 
-//Coleta de dados da primeira cidade.
+
+//Coleta de dados do primeiro estado.
 
 printf ("Digite o nome do estado:\n");
 scanf ("%s", &estado1);
